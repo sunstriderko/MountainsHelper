@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MountainsHelperUI", "MountainsHelper\MountainsHelperUI.csproj", "{E727A994-5FA8-4F19-86C5-7608DAE75680}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MountainHelperLibrary", "MountainHelperLibrary\MountainHelperLibrary.csproj", "{637E485B-81AB-478E-910E-CB330CB76D85}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E727A994-5FA8-4F19-86C5-7608DAE75680}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E727A994-5FA8-4F19-86C5-7608DAE75680}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E727A994-5FA8-4F19-86C5-7608DAE75680}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E727A994-5FA8-4F19-86C5-7608DAE75680}.Release|Any CPU.Build.0 = Release|Any CPU
+		{637E485B-81AB-478E-910E-CB330CB76D85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{637E485B-81AB-478E-910E-CB330CB76D85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{637E485B-81AB-478E-910E-CB330CB76D85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{637E485B-81AB-478E-910E-CB330CB76D85}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B3D95A26-49EA-4AB3-983A-E47CB1489ABB}
+	EndGlobalSection
+EndGlobal

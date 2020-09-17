@@ -1,0 +1,6 @@
+C:\Users\adamc\Desktop\Kodenie\MountainsHelper\MountainHelperLibrary\bin\Debug\MountainHelperLibrary.dll
+C:\Users\adamc\Desktop\Kodenie\MountainsHelper\MountainHelperLibrary\bin\Debug\MountainHelperLibrary.pdb
+C:\Users\adamc\Desktop\Kodenie\MountainsHelper\MountainHelperLibrary\obj\Debug\MountainHelperLibrary.csproj.CoreCompileInputs.cache
+C:\Users\adamc\Desktop\Kodenie\MountainsHelper\MountainHelperLibrary\obj\Debug\MountainHelperLibrary.dll
+C:\Users\adamc\Desktop\Kodenie\MountainsHelper\MountainHelperLibrary\obj\Debug\MountainHelperLibrary.pdb
+C:\Users\adamc\Desktop\Kodenie\MountainsHelper\MountainHelperLibrary\obj\Debug\MountainHelperLibrary.csprojAssemblyReference.cache

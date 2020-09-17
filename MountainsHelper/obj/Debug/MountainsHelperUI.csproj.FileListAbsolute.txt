@@ -1,0 +1,14 @@
+C:\Users\adamc\Desktop\Kodenie\MountainsHelper\MountainsHelper\bin\Debug\MountainsHelper.exe.config
+C:\Users\adamc\Desktop\Kodenie\MountainsHelper\MountainsHelper\bin\Debug\MountainsHelper.exe
+C:\Users\adamc\Desktop\Kodenie\MountainsHelper\MountainsHelper\bin\Debug\MountainsHelper.pdb
+C:\Users\adamc\Desktop\Kodenie\MountainsHelper\MountainsHelper\obj\Debug\MountainsHelperUI.csprojAssemblyReference.cache
+C:\Users\adamc\Desktop\Kodenie\MountainsHelper\MountainsHelper\obj\Debug\MountainsHelper.Properties.Resources.resources
+C:\Users\adamc\Desktop\Kodenie\MountainsHelper\MountainsHelper\obj\Debug\MountainsHelperUI.csproj.GenerateResource.cache
+C:\Users\adamc\Desktop\Kodenie\MountainsHelper\MountainsHelper\obj\Debug\MountainsHelperUI.csproj.CoreCompileInputs.cache
+C:\Users\adamc\Desktop\Kodenie\MountainsHelper\MountainsHelper\obj\Debug\MountainsHelper.exe
+C:\Users\adamc\Desktop\Kodenie\MountainsHelper\MountainsHelper\obj\Debug\MountainsHelper.pdb
+C:\Users\adamc\Desktop\Kodenie\MountainsHelper\MountainsHelper\obj\Debug\MountainsHelper.insertMountainForm.resources
+C:\Users\adamc\Desktop\Kodenie\MountainsHelper\MountainsHelper\bin\Debug\MountainHelperLibrary.dll
+C:\Users\adamc\Desktop\Kodenie\MountainsHelper\MountainsHelper\bin\Debug\MountainHelperLibrary.pdb
+C:\Users\adamc\Desktop\Kodenie\MountainsHelper\MountainsHelper\obj\Debug\MountainsHelperUI.csproj.CopyComplete
+C:\Users\adamc\Desktop\Kodenie\MountainsHelper\MountainsHelper\obj\Debug\MountainsHelper.MainMenuForm.resources
