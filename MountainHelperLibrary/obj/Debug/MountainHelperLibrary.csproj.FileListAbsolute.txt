@@ -4,3 +4,6 @@ C:\Users\adamc\Desktop\Kodenie\MountainsHelper\MountainHelperLibrary\obj\Debug\M
 C:\Users\adamc\Desktop\Kodenie\MountainsHelper\MountainHelperLibrary\obj\Debug\MountainHelperLibrary.dll
 C:\Users\adamc\Desktop\Kodenie\MountainsHelper\MountainHelperLibrary\obj\Debug\MountainHelperLibrary.pdb
 C:\Users\adamc\Desktop\Kodenie\MountainsHelper\MountainHelperLibrary\obj\Debug\MountainHelperLibrary.csprojAssemblyReference.cache
+C:\Users\adamc\Desktop\Kodenie\MountainsHelper\MountainHelperLibrary\bin\Debug\Dapper.dll
+C:\Users\adamc\Desktop\Kodenie\MountainsHelper\MountainHelperLibrary\bin\Debug\Dapper.xml
+C:\Users\adamc\Desktop\Kodenie\MountainsHelper\MountainHelperLibrary\obj\Debug\MountainHelperLibrary.csproj.CopyComplete

@@ -29,15 +29,12 @@ namespace MountainsHelper
             mountain.MountainDifficulty = int.Parse(mountainDifficultyTextBox.Text);
             mountain.MountainTourStart = mountainTourStartPointTextBox.Text;
             mountain.MountainTimeOfTour = mountainTimeOfTourTextBox.Text;
+            mountain.MountainCountryName = countryNameTextbox.Text;
 
-            //mountain.MountainName = "Kopec";
-            //mountain.MountainHeight = 2090;
-            //mountain.MountainDifficulty = 2;
-            //mountain.MountainTourStart = "";
-            //mountain.MountainTimeOfTour = "";
-
-            MainMenuForm frm = new MainMenuForm();
-            frm.MountainInserted(mountain);
+            DataAccess db = new DataAccess();
+            db.CreateMountain(mountain);
+            
+            MainMenuForm.frm1.MountainInserted(mountain);
 
             this.Close();
         }

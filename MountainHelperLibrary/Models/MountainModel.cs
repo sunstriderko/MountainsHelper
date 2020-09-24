@@ -8,7 +8,7 @@ namespace MountainHelperLibrary.Models
 {
     public class MountainModel
     {
-        //public int Id { get; set; }
+        public int Id { get; set; }
         public string MountainName { get; set; }
 
         public int MountainHeight { get; set; }
@@ -18,5 +18,12 @@ namespace MountainHelperLibrary.Models
         public string MountainTourStart { get; set; }
 
         public string MountainTimeOfTour { get; set; }
+
+        public string MountainCountryName { get; set; }
+
+        public bool MountainFinished { get; set; }
+
+
+
     }
 }

@@ -30,16 +30,16 @@
         {
             this.mountainHelperLabel = new System.Windows.Forms.Label();
             this.selectMountainLabel = new System.Windows.Forms.Label();
-            this.selectMountainChainLabel = new System.Windows.Forms.Label();
+            this.selectDifficultyLabel = new System.Windows.Forms.Label();
             this.mainMenuPicturebox = new System.Windows.Forms.PictureBox();
             this.selectMountainComboBox = new System.Windows.Forms.ComboBox();
-            this.selectMountaingChainComboBox = new System.Windows.Forms.ComboBox();
+            this.selectDifficultyComboBox = new System.Windows.Forms.ComboBox();
             this.insertMountainMenuButton = new System.Windows.Forms.Button();
             this.selectCountryLabel = new System.Windows.Forms.Label();
             this.selectCountryComboBox = new System.Windows.Forms.ComboBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.mainMenuRefreshButton = new System.Windows.Forms.Button();
             this.createCountryButton = new System.Windows.Forms.Button();
+            this.statisticsButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.mainMenuPicturebox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -47,11 +47,11 @@
             // mountainHelperLabel
             // 
             this.mountainHelperLabel.AutoSize = true;
-            this.mountainHelperLabel.Font = new System.Drawing.Font("Agency FB", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mountainHelperLabel.Font = new System.Drawing.Font("Agency FB", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mountainHelperLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.mountainHelperLabel.Location = new System.Drawing.Point(202, 20);
+            this.mountainHelperLabel.Location = new System.Drawing.Point(176, 20);
             this.mountainHelperLabel.Name = "mountainHelperLabel";
-            this.mountainHelperLabel.Size = new System.Drawing.Size(440, 45);
+            this.mountainHelperLabel.Size = new System.Drawing.Size(415, 44);
             this.mountainHelperLabel.TabIndex = 0;
             this.mountainHelperLabel.Text = "Welcome to Mountain Tour Helper";
             // 
@@ -62,20 +62,20 @@
             this.selectMountainLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.selectMountainLabel.Location = new System.Drawing.Point(14, 291);
             this.selectMountainLabel.Name = "selectMountainLabel";
-            this.selectMountainLabel.Size = new System.Drawing.Size(170, 36);
+            this.selectMountainLabel.Size = new System.Drawing.Size(143, 31);
             this.selectMountainLabel.TabIndex = 1;
             this.selectMountainLabel.Text = "Select Mountain :";
             // 
-            // selectMountainChainLabel
+            // selectDifficultyLabel
             // 
-            this.selectMountainChainLabel.AutoSize = true;
-            this.selectMountainChainLabel.Font = new System.Drawing.Font("Agency FB", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.selectMountainChainLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.selectMountainChainLabel.Location = new System.Drawing.Point(487, 291);
-            this.selectMountainChainLabel.Name = "selectMountainChainLabel";
-            this.selectMountainChainLabel.Size = new System.Drawing.Size(227, 36);
-            this.selectMountainChainLabel.TabIndex = 2;
-            this.selectMountainChainLabel.Text = "Select Mountain Chain :";
+            this.selectDifficultyLabel.AutoSize = true;
+            this.selectDifficultyLabel.Font = new System.Drawing.Font("Agency FB", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.selectDifficultyLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.selectDifficultyLabel.Location = new System.Drawing.Point(516, 291);
+            this.selectDifficultyLabel.Name = "selectDifficultyLabel";
+            this.selectDifficultyLabel.Size = new System.Drawing.Size(142, 31);
+            this.selectDifficultyLabel.TabIndex = 2;
+            this.selectDifficultyLabel.Text = "Select Difficulty :";
             // 
             // mainMenuPicturebox
             // 
@@ -93,16 +93,16 @@
             this.selectMountainComboBox.FormattingEnabled = true;
             this.selectMountainComboBox.Location = new System.Drawing.Point(20, 330);
             this.selectMountainComboBox.Name = "selectMountainComboBox";
-            this.selectMountainComboBox.Size = new System.Drawing.Size(235, 32);
+            this.selectMountainComboBox.Size = new System.Drawing.Size(203, 28);
             this.selectMountainComboBox.TabIndex = 6;
             // 
-            // selectMountaingChainComboBox
+            // selectDifficultyComboBox
             // 
-            this.selectMountaingChainComboBox.FormattingEnabled = true;
-            this.selectMountaingChainComboBox.Location = new System.Drawing.Point(493, 330);
-            this.selectMountaingChainComboBox.Name = "selectMountaingChainComboBox";
-            this.selectMountaingChainComboBox.Size = new System.Drawing.Size(232, 32);
-            this.selectMountaingChainComboBox.TabIndex = 7;
+            this.selectDifficultyComboBox.FormattingEnabled = true;
+            this.selectDifficultyComboBox.Location = new System.Drawing.Point(522, 330);
+            this.selectDifficultyComboBox.Name = "selectDifficultyComboBox";
+            this.selectDifficultyComboBox.Size = new System.Drawing.Size(203, 28);
+            this.selectDifficultyComboBox.TabIndex = 7;
             // 
             // insertMountainMenuButton
             // 
@@ -125,7 +125,7 @@
             this.selectCountryLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.selectCountryLabel.Location = new System.Drawing.Point(266, 291);
             this.selectCountryLabel.Name = "selectCountryLabel";
-            this.selectCountryLabel.Size = new System.Drawing.Size(162, 36);
+            this.selectCountryLabel.Size = new System.Drawing.Size(137, 31);
             this.selectCountryLabel.TabIndex = 10;
             this.selectCountryLabel.Text = "Select Country :";
             // 
@@ -135,7 +135,7 @@
             this.selectCountryComboBox.FormattingEnabled = true;
             this.selectCountryComboBox.Location = new System.Drawing.Point(272, 330);
             this.selectCountryComboBox.Name = "selectCountryComboBox";
-            this.selectCountryComboBox.Size = new System.Drawing.Size(203, 32);
+            this.selectCountryComboBox.Size = new System.Drawing.Size(203, 28);
             this.selectCountryComboBox.TabIndex = 11;
             // 
             // pictureBox1
@@ -148,47 +148,50 @@
             this.pictureBox1.TabIndex = 12;
             this.pictureBox1.TabStop = false;
             // 
-            // mainMenuRefreshButton
-            // 
-            this.mainMenuRefreshButton.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.mainMenuRefreshButton.ForeColor = System.Drawing.Color.Red;
-            this.mainMenuRefreshButton.Location = new System.Drawing.Point(628, 401);
-            this.mainMenuRefreshButton.Name = "mainMenuRefreshButton";
-            this.mainMenuRefreshButton.Size = new System.Drawing.Size(97, 44);
-            this.mainMenuRefreshButton.TabIndex = 13;
-            this.mainMenuRefreshButton.Text = "Refresh";
-            this.mainMenuRefreshButton.UseVisualStyleBackColor = false;
-            this.mainMenuRefreshButton.Click += new System.EventHandler(this.mainMenuRefreshButton_Click);
-            // 
             // createCountryButton
             // 
             this.createCountryButton.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.createCountryButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.createCountryButton.Font = new System.Drawing.Font("Agency FB", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.createCountryButton.ForeColor = System.Drawing.Color.Coral;
-            this.createCountryButton.Location = new System.Drawing.Point(272, 388);
+            this.createCountryButton.Location = new System.Drawing.Point(272, 391);
             this.createCountryButton.Name = "createCountryButton";
             this.createCountryButton.Size = new System.Drawing.Size(203, 57);
             this.createCountryButton.TabIndex = 14;
             this.createCountryButton.Text = "Create Country";
             this.createCountryButton.UseVisualStyleBackColor = false;
+            this.createCountryButton.Click += new System.EventHandler(this.createCountryButton_Click);
+            // 
+            // statisticsButton
+            // 
+            this.statisticsButton.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.statisticsButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.statisticsButton.Font = new System.Drawing.Font("Agency FB", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.statisticsButton.ForeColor = System.Drawing.Color.Coral;
+            this.statisticsButton.Location = new System.Drawing.Point(522, 391);
+            this.statisticsButton.Name = "statisticsButton";
+            this.statisticsButton.Size = new System.Drawing.Size(203, 57);
+            this.statisticsButton.TabIndex = 15;
+            this.statisticsButton.Text = "Statistics";
+            this.statisticsButton.UseVisualStyleBackColor = false;
+            this.statisticsButton.Click += new System.EventHandler(this.statisticsButton_Click);
             // 
             // MainMenuForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 24F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(748, 460);
+            this.Controls.Add(this.statisticsButton);
             this.Controls.Add(this.createCountryButton);
-            this.Controls.Add(this.mainMenuRefreshButton);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.selectCountryComboBox);
             this.Controls.Add(this.selectCountryLabel);
             this.Controls.Add(this.insertMountainMenuButton);
-            this.Controls.Add(this.selectMountaingChainComboBox);
+            this.Controls.Add(this.selectDifficultyComboBox);
             this.Controls.Add(this.selectMountainComboBox);
             this.Controls.Add(this.mainMenuPicturebox);
-            this.Controls.Add(this.selectMountainChainLabel);
+            this.Controls.Add(this.selectDifficultyLabel);
             this.Controls.Add(this.selectMountainLabel);
             this.Controls.Add(this.mountainHelperLabel);
             this.Font = new System.Drawing.Font("Agency FB", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -206,15 +209,15 @@
 
         private System.Windows.Forms.Label mountainHelperLabel;
         private System.Windows.Forms.Label selectMountainLabel;
-        private System.Windows.Forms.Label selectMountainChainLabel;
+        private System.Windows.Forms.Label selectDifficultyLabel;
         private System.Windows.Forms.PictureBox mainMenuPicturebox;
         private System.Windows.Forms.ComboBox selectMountainComboBox;
-        private System.Windows.Forms.ComboBox selectMountaingChainComboBox;
+        private System.Windows.Forms.ComboBox selectDifficultyComboBox;
         private System.Windows.Forms.Button insertMountainMenuButton;
         private System.Windows.Forms.Label selectCountryLabel;
         private System.Windows.Forms.ComboBox selectCountryComboBox;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Button mainMenuRefreshButton;
         private System.Windows.Forms.Button createCountryButton;
+        private System.Windows.Forms.Button statisticsButton;
     }
 }
