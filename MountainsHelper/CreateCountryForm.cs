@@ -14,22 +14,52 @@ namespace MountainsHelper
 {
     public partial class CreateCountryForm : Form
     {
+        List<CountryModel> ccfAllCountries = new List<CountryModel>();
         CountryModel country = new CountryModel();
         
         public CreateCountryForm()
         {
             InitializeComponent();
 
+            CreateCountryFormDataGetter();
+
+        }
+
+        public void CreateCountryFormDataGetter()
+        {
+            DataAccess db = new DataAccess();
+            ccfAllCountries = db.GetCountries();
+
         }
 
         private void addCountryButton_Click(object sender, EventArgs e)
         {
+            int[] placeholder = new int[ccfAllCountries.Count];
+
             country.CountryName = createCountryCountryNameTextbox.Text;
 
-            DataAccess db = new DataAccess();
-            db.CreateCountry(country);
+            for (int i= 0; i < ccfAllCountries.Count; i++)
+            {
+                if (country.CountryName == ccfAllCountries[i].CountryName)
+                {
+                    placeholder[i]++;
 
-            MainMenuForm.frm1.CountryInserted(country);
+                }
+            }
+
+            if (placeholder.Sum() > 0)
+            {
+                MessageBox.Show("This country already exists!");
+
+            }
+
+            else
+            {
+                DataAccess db = new DataAccess();
+                db.CreateCountry(country);
+
+                MainMenuForm.mmf.CountryInserted(country);
+            }
 
             this.Close();
         }

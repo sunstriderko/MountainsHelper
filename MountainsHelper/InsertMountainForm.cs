@@ -14,16 +14,21 @@ namespace MountainsHelper
 {
     public partial class InsertMountainForm : Form
     {
+        List<MountainModel> imfAllMountains = new List<MountainModel>();
         MountainModel mountain = new MountainModel();
 
         public InsertMountainForm()
         {
             InitializeComponent();
 
+            InsertMountainDataGetter();
+
         }
 
         private void insertMountainButton_Click(object sender, EventArgs e)
         {
+            int[] placeholder = new int[imfAllMountains.Count];
+
             mountain.MountainName = mountainNameTextBox.Text;
             mountain.MountainHeight = int.Parse(mountainHeightTextBox.Text);
             mountain.MountainDifficulty = int.Parse(mountainDifficultyTextBox.Text);
@@ -31,12 +36,37 @@ namespace MountainsHelper
             mountain.MountainTimeOfTour = mountainTimeOfTourTextBox.Text;
             mountain.MountainCountryName = countryNameTextbox.Text;
 
-            DataAccess db = new DataAccess();
-            db.CreateMountain(mountain);
-            
-            MainMenuForm.frm1.MountainInserted(mountain);
+            for (int i = 0; i < imfAllMountains.Count; i++)
+            {
+                if (mountain.MountainName == imfAllMountains[i].MountainName)
+                {
+                    placeholder[i]++;
+
+                }
+            }
+
+            if (placeholder.Sum() > 0)
+            {
+                MessageBox.Show("This country already exists!");
+
+            }
+
+            else
+            { 
+                DataAccess db = new DataAccess();
+                db.CreateMountain(mountain);
+
+                MainMenuForm.mmf.MountainInserted(mountain);
+            }
 
             this.Close();
+        }
+
+        public void InsertMountainDataGetter()
+        {
+            DataAccess db = new DataAccess();
+            imfAllMountains = db.GetMountains();
+
         }
     }
 }

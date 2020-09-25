@@ -105,6 +105,30 @@ namespace MountainHelperLibrary
 
             return mountains;
         }
+
+        public void RemoveMountain(MountainModel model)
+        {
+            using (IDbConnection connection = new System.Data.SqlClient.SqlConnection(GlobalConfig.CnnString("Mountains")))
+            {
+                var m = new DynamicParameters();
+
+                m.Add("@MountainName", model.MountainName);
+
+                connection.Execute("dbo.spMountains_Remove", m, commandType: CommandType.StoredProcedure);
+            }
+        }
+
+        public void RemoveCountry(CountryModel model)
+        {
+            using (IDbConnection connection = new System.Data.SqlClient.SqlConnection(GlobalConfig.CnnString("Mountains")))
+            {
+                var c = new DynamicParameters();
+
+                c.Add("@CountryName", model.CountryName);
+
+                connection.Execute("dbo.spCountry_Remove", c, commandType: CommandType.StoredProcedure);
+            }
+        }
     }
 }
 

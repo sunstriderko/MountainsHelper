@@ -23,7 +23,5 @@ namespace MountainHelperLibrary.Models
 
         public bool MountainFinished { get; set; }
 
-
-
     }
 }

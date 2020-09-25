@@ -14,9 +14,9 @@ namespace MountainsHelper
 {
     public partial class MainMenuForm : Form
     {
-        internal static MainMenuForm frm1;
-        internal static InsertMountainForm frm2;
-        internal static CreateCountryForm frm3;
+        internal static MainMenuForm mmf;
+        internal static InsertMountainForm imf;
+        internal static CreateCountryForm ccf;
 
         public List<MountainModel> availibleMountains = new List<MountainModel>();
         List<CountryModel> availibleCountries = new List<CountryModel>();
@@ -46,7 +46,7 @@ namespace MountainsHelper
         {
             InitializeComponent();
 
-            frm1 = this;
+            mmf = this;
 
             DataGetter();
 
@@ -73,13 +73,14 @@ namespace MountainsHelper
             selectDifficultyComboBox.DataSource = null;
             selectDifficultyComboBox.DataSource = availibleDifficulties;
             selectDifficultyComboBox.DisplayMember = "DifficultyNumber";
+
         }
 
 
         private void insertMountainMenuButton_Click(object sender, EventArgs e)
         {
-            frm2 = new InsertMountainForm();
-            frm2.Show();
+            imf = new InsertMountainForm();
+            imf.Show();
 
         }
 
@@ -139,8 +140,8 @@ namespace MountainsHelper
 
         private void createCountryButton_Click(object sender, EventArgs e)
         {
-            frm3 = new CreateCountryForm();
-            frm3.Show();
+            ccf = new CreateCountryForm();
+            ccf.Show();
         }
 
         public void DataGetter()
@@ -150,6 +151,35 @@ namespace MountainsHelper
             availibleMountains = db.GetMountains();
 
             availibleCountries = db.GetCountries();
+        }
+
+        private void removeMountainMenuButton_Click(object sender, EventArgs e)
+        {
+            DataAccess db = new DataAccess();
+
+            MountainModel selectedMountain = new MountainModel();
+            selectedMountain = (MountainModel)selectMountainComboBox.SelectedItem;
+
+            db.RemoveMountain(selectedMountain);
+
+            DataGetter();
+
+            WireUpLists();
+        }
+
+        private void deleteCountryButton_Click(object sender, EventArgs e)
+        {
+            DataAccess db = new DataAccess();
+
+            CountryModel selectedCountry = new CountryModel();
+            selectedCountry = (CountryModel)selectCountryComboBox.SelectedItem;
+
+            db.RemoveCountry(selectedCountry);
+
+            DataGetter();
+
+            WireUpLists();
+
         }
     }
 }
