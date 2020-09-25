@@ -7,3 +7,5 @@ attributes. Thats the main feature of this project to have a database of tours t
 own achievements.
 
 The project is not finished and is being currently worked on.
+
+TODO - Comboboxes are supposed to be interactive. When you select a Mountain/Country/Difficulty, a new form should pop up with more informations.
