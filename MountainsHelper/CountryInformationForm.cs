@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MountainHelperLibrary.Models;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,9 +13,13 @@ namespace MountainsHelper
 {
     public partial class CountryInformationForm : Form
     {
-        public CountryInformationForm()
+        private CountryModel country;
+        public CountryInformationForm( CountryModel countryModel )
         {
             InitializeComponent();
+
+            country = countryModel;
+
         }
     }
 }

@@ -181,5 +181,28 @@ namespace MountainsHelper
             WireUpLists();
 
         }
+
+        private void selectMountainComboBox_SelectionChangeCommitted(object sender, EventArgs e)
+        {
+            MountainModel mm = (MountainModel)selectMountainComboBox.SelectedItem;
+
+            if (mm !=null)
+            {
+                MountainInformationForm frm = new MountainInformationForm(mm);
+                frm.Show();
+
+            }
+        }
+
+        private void selectCountryComboBox_SelectionChangeCommitted(object sender, EventArgs e)
+        {
+            CountryModel cm = (CountryModel)selectCountryComboBox.SelectedItem;
+  
+            if (cm != null)
+            {
+                CountryInformationForm frm = new CountryInformationForm(cm);
+                frm.Show();
+            }
+        }
     }
 }

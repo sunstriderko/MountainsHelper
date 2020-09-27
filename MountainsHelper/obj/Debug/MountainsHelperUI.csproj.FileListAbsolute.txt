@@ -16,3 +16,5 @@ C:\Users\adamc\Desktop\Kodenie\MountainsHelper\MountainsHelper\obj\Debug\Mountai
 C:\Users\adamc\Desktop\Kodenie\MountainsHelper\MountainsHelper\obj\Debug\MountainsHelper.CreateCountryForm.resources
 C:\Users\adamc\Desktop\Kodenie\MountainsHelper\MountainsHelper\bin\Debug\Dapper.dll
 C:\Users\adamc\Desktop\Kodenie\MountainsHelper\MountainsHelper\bin\Debug\Dapper.xml
+C:\Users\adamc\Desktop\Kodenie\MountainsHelper\MountainsHelper\obj\Debug\MountainsHelper.MountainInformationForm.resources
+C:\Users\adamc\Desktop\Kodenie\MountainsHelper\MountainsHelper\obj\Debug\MountainsHelper.CountryInformationForm.resources

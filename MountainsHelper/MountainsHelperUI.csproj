@@ -90,6 +90,9 @@
     <Compile Include="StatisticsForm.Designer.cs">
       <DependentUpon>StatisticsForm.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="CountryInformationForm.resx">
+      <DependentUpon>CountryInformationForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CreateCountryForm.resx">
       <DependentUpon>CreateCountryForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -98,6 +101,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MainMenuForm.resx">
       <DependentUpon>MainMenuForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MountainInformationForm.resx">
+      <DependentUpon>MountainInformationForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MountainHelperLibrary.Models;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,9 +13,25 @@ namespace MountainsHelper
 {
     public partial class MountainInformationForm : Form
     {
-        public MountainInformationForm()
+        private MountainModel mountain;
+        public MountainInformationForm(MountainModel model)
         {
             InitializeComponent();
+
+            mountain = model;
+
+            InformationsDataGetter();
+
+        }
+
+        public void InformationsDataGetter()
+        {
+                mifMountainNameTextbox.Text = mountain.MountainName;
+                mifMountainHeightTextbox.Text = mountain.MountainHeight.ToString();
+                mifMountainDifficultyTextbox.Text = mountain.MountainDifficulty.ToString();
+                mifMountainStartPointTextbox.Text = mountain.MountainTourStart;
+                mifMountainTimeOfTourTextbox.Text = mountain.MountainTimeOfTour;
+
         }
     }
 }
