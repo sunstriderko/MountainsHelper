@@ -48,7 +48,6 @@
     <Compile Include="DataAccess.cs" />
     <Compile Include="GlobalConfig.cs" />
     <Compile Include="Models\CountryModel.cs" />
-    <Compile Include="Models\MountainChainModel.cs" />
     <Compile Include="Models\MountainDifficultyModel.cs" />
     <Compile Include="Models\MountainModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

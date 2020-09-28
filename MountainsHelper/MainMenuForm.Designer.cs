@@ -42,6 +42,8 @@
             this.statisticsButton = new System.Windows.Forms.Button();
             this.deleteCountryButton = new System.Windows.Forms.Button();
             this.removeMountainMenuButton = new System.Windows.Forms.Button();
+            this.mmfLoadMountainButton = new System.Windows.Forms.Button();
+            this.mmfLoadCountryButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.mainMenuPicturebox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -97,7 +99,6 @@
             this.selectMountainComboBox.Name = "selectMountainComboBox";
             this.selectMountainComboBox.Size = new System.Drawing.Size(220, 32);
             this.selectMountainComboBox.TabIndex = 6;
-            this.selectMountainComboBox.SelectionChangeCommitted += new System.EventHandler(this.selectMountainComboBox_SelectionChangeCommitted);
             // 
             // selectDifficultyComboBox
             // 
@@ -114,7 +115,7 @@
             this.insertMountainMenuButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.insertMountainMenuButton.Font = new System.Drawing.Font("Agency FB", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.insertMountainMenuButton.ForeColor = System.Drawing.Color.Coral;
-            this.insertMountainMenuButton.Location = new System.Drawing.Point(20, 391);
+            this.insertMountainMenuButton.Location = new System.Drawing.Point(20, 433);
             this.insertMountainMenuButton.Name = "insertMountainMenuButton";
             this.insertMountainMenuButton.Size = new System.Drawing.Size(107, 57);
             this.insertMountainMenuButton.TabIndex = 9;
@@ -141,7 +142,6 @@
             this.selectCountryComboBox.Name = "selectCountryComboBox";
             this.selectCountryComboBox.Size = new System.Drawing.Size(217, 32);
             this.selectCountryComboBox.TabIndex = 11;
-            this.selectCountryComboBox.SelectionChangeCommitted += new System.EventHandler(this.selectCountryComboBox_SelectionChangeCommitted);
             // 
             // pictureBox1
             // 
@@ -159,7 +159,7 @@
             this.createCountryButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.createCountryButton.Font = new System.Drawing.Font("Agency FB", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.createCountryButton.ForeColor = System.Drawing.Color.Coral;
-            this.createCountryButton.Location = new System.Drawing.Point(275, 391);
+            this.createCountryButton.Location = new System.Drawing.Point(275, 433);
             this.createCountryButton.Name = "createCountryButton";
             this.createCountryButton.Size = new System.Drawing.Size(107, 57);
             this.createCountryButton.TabIndex = 14;
@@ -173,7 +173,7 @@
             this.statisticsButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.statisticsButton.Font = new System.Drawing.Font("Agency FB", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.statisticsButton.ForeColor = System.Drawing.Color.Coral;
-            this.statisticsButton.Location = new System.Drawing.Point(522, 391);
+            this.statisticsButton.Location = new System.Drawing.Point(522, 433);
             this.statisticsButton.Name = "statisticsButton";
             this.statisticsButton.Size = new System.Drawing.Size(203, 57);
             this.statisticsButton.TabIndex = 15;
@@ -187,9 +187,9 @@
             this.deleteCountryButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.deleteCountryButton.Font = new System.Drawing.Font("Agency FB", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.deleteCountryButton.ForeColor = System.Drawing.Color.Coral;
-            this.deleteCountryButton.Location = new System.Drawing.Point(385, 391);
+            this.deleteCountryButton.Location = new System.Drawing.Point(385, 433);
             this.deleteCountryButton.Name = "deleteCountryButton";
-            this.deleteCountryButton.Size = new System.Drawing.Size(107, 57);
+            this.deleteCountryButton.Size = new System.Drawing.Size(110, 57);
             this.deleteCountryButton.TabIndex = 16;
             this.deleteCountryButton.Text = "Delete";
             this.deleteCountryButton.UseVisualStyleBackColor = false;
@@ -201,7 +201,7 @@
             this.removeMountainMenuButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.removeMountainMenuButton.Font = new System.Drawing.Font("Agency FB", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.removeMountainMenuButton.ForeColor = System.Drawing.Color.Coral;
-            this.removeMountainMenuButton.Location = new System.Drawing.Point(133, 391);
+            this.removeMountainMenuButton.Location = new System.Drawing.Point(133, 433);
             this.removeMountainMenuButton.Name = "removeMountainMenuButton";
             this.removeMountainMenuButton.Size = new System.Drawing.Size(107, 57);
             this.removeMountainMenuButton.TabIndex = 17;
@@ -209,12 +209,42 @@
             this.removeMountainMenuButton.UseVisualStyleBackColor = false;
             this.removeMountainMenuButton.Click += new System.EventHandler(this.removeMountainMenuButton_Click);
             // 
+            // mmfLoadMountainButton
+            // 
+            this.mmfLoadMountainButton.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.mmfLoadMountainButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.mmfLoadMountainButton.Font = new System.Drawing.Font("Agency FB", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mmfLoadMountainButton.ForeColor = System.Drawing.Color.Coral;
+            this.mmfLoadMountainButton.Location = new System.Drawing.Point(20, 368);
+            this.mmfLoadMountainButton.Name = "mmfLoadMountainButton";
+            this.mmfLoadMountainButton.Size = new System.Drawing.Size(220, 57);
+            this.mmfLoadMountainButton.TabIndex = 18;
+            this.mmfLoadMountainButton.Text = "Load Mountain";
+            this.mmfLoadMountainButton.UseVisualStyleBackColor = false;
+            this.mmfLoadMountainButton.Click += new System.EventHandler(this.mmfLoadMountainButton_Click);
+            // 
+            // mmfLoadCountryButton
+            // 
+            this.mmfLoadCountryButton.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.mmfLoadCountryButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.mmfLoadCountryButton.Font = new System.Drawing.Font("Agency FB", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mmfLoadCountryButton.ForeColor = System.Drawing.Color.Coral;
+            this.mmfLoadCountryButton.Location = new System.Drawing.Point(275, 368);
+            this.mmfLoadCountryButton.Name = "mmfLoadCountryButton";
+            this.mmfLoadCountryButton.Size = new System.Drawing.Size(220, 57);
+            this.mmfLoadCountryButton.TabIndex = 19;
+            this.mmfLoadCountryButton.Text = "Load Country";
+            this.mmfLoadCountryButton.UseVisualStyleBackColor = false;
+            this.mmfLoadCountryButton.Click += new System.EventHandler(this.mmfLoadCountryButton_Click);
+            // 
             // MainMenuForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(748, 460);
+            this.ClientSize = new System.Drawing.Size(748, 502);
+            this.Controls.Add(this.mmfLoadCountryButton);
+            this.Controls.Add(this.mmfLoadMountainButton);
             this.Controls.Add(this.removeMountainMenuButton);
             this.Controls.Add(this.deleteCountryButton);
             this.Controls.Add(this.statisticsButton);
@@ -256,5 +286,7 @@
         private System.Windows.Forms.Button statisticsButton;
         private System.Windows.Forms.Button deleteCountryButton;
         private System.Windows.Forms.Button removeMountainMenuButton;
+        private System.Windows.Forms.Button mmfLoadMountainButton;
+        private System.Windows.Forms.Button mmfLoadCountryButton;
     }
 }

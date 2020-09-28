@@ -20,7 +20,6 @@ namespace MountainsHelper
 
         public List<MountainModel> availibleMountains = new List<MountainModel>();
         List<CountryModel> availibleCountries = new List<CountryModel>();
-        List<MountainChainModel> availibleMountainChains = new List<MountainChainModel>();
         List<MountainDifficultyModel> availibleDifficulties = new List<MountainDifficultyModel>();
 
         public void MountainInserted(MountainModel myMountain)
@@ -182,29 +181,6 @@ namespace MountainsHelper
 
         }
 
-        private void selectMountainComboBox_SelectionChangeCommitted(object sender, EventArgs e)
-        {
-            MountainModel mm = (MountainModel)selectMountainComboBox.SelectedItem;
-
-            if (mm !=null)
-            {
-                MountainInformationForm frm = new MountainInformationForm(mm);
-                frm.Show();
-
-            }
-        }
-
-        private void selectCountryComboBox_SelectionChangeCommitted(object sender, EventArgs e)
-        {
-            CountryModel cm = (CountryModel)selectCountryComboBox.SelectedItem;
-  
-            if (cm != null)
-            {
-                CountryInformationForm frm = new CountryInformationForm(cm);
-                frm.Show();
-            }
-        }
-
         private void selectDifficultyComboBox_SelectionChangeCommitted(object sender, EventArgs e)
         {
             MountainDifficultyModel mdm = (MountainDifficultyModel)selectDifficultyComboBox.SelectedItem;
@@ -212,6 +188,29 @@ namespace MountainsHelper
             if (mdm != null)
             {
                 DifficultyInformationForm frm = new DifficultyInformationForm(mdm);
+                frm.Show();
+            }
+        }
+
+        private void mmfLoadMountainButton_Click(object sender, EventArgs e)
+        {
+            MountainModel mm = (MountainModel)selectMountainComboBox.SelectedItem;
+
+            if (mm != null)
+            {
+                MountainInformationForm frm = new MountainInformationForm(mm);
+                frm.Show();
+
+            }
+        }
+
+        private void mmfLoadCountryButton_Click(object sender, EventArgs e)
+        {
+            CountryModel cm = (CountryModel)selectCountryComboBox.SelectedItem;
+
+            if (cm != null)
+            {
+                CountryInformationForm frm = new CountryInformationForm(cm);
                 frm.Show();
             }
         }
