@@ -204,5 +204,16 @@ namespace MountainsHelper
                 frm.Show();
             }
         }
+
+        private void selectDifficultyComboBox_SelectionChangeCommitted(object sender, EventArgs e)
+        {
+            MountainDifficultyModel mdm = (MountainDifficultyModel)selectDifficultyComboBox.SelectedItem;
+
+            if (mdm != null)
+            {
+                DifficultyInformationForm frm = new DifficultyInformationForm(mdm);
+                frm.Show();
+            }
+        }
     }
 }

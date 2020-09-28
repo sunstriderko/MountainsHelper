@@ -53,7 +53,7 @@
             this.mountainHelperLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.mountainHelperLabel.Location = new System.Drawing.Point(176, 20);
             this.mountainHelperLabel.Name = "mountainHelperLabel";
-            this.mountainHelperLabel.Size = new System.Drawing.Size(415, 44);
+            this.mountainHelperLabel.Size = new System.Drawing.Size(554, 57);
             this.mountainHelperLabel.TabIndex = 0;
             this.mountainHelperLabel.Text = "Welcome to Mountain Tour Helper";
             // 
@@ -64,7 +64,7 @@
             this.selectMountainLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.selectMountainLabel.Location = new System.Drawing.Point(14, 291);
             this.selectMountainLabel.Name = "selectMountainLabel";
-            this.selectMountainLabel.Size = new System.Drawing.Size(143, 31);
+            this.selectMountainLabel.Size = new System.Drawing.Size(170, 36);
             this.selectMountainLabel.TabIndex = 1;
             this.selectMountainLabel.Text = "Select Mountain :";
             // 
@@ -75,7 +75,7 @@
             this.selectDifficultyLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.selectDifficultyLabel.Location = new System.Drawing.Point(516, 291);
             this.selectDifficultyLabel.Name = "selectDifficultyLabel";
-            this.selectDifficultyLabel.Size = new System.Drawing.Size(142, 31);
+            this.selectDifficultyLabel.Size = new System.Drawing.Size(168, 36);
             this.selectDifficultyLabel.TabIndex = 2;
             this.selectDifficultyLabel.Text = "Select Difficulty :";
             // 
@@ -95,7 +95,7 @@
             this.selectMountainComboBox.FormattingEnabled = true;
             this.selectMountainComboBox.Location = new System.Drawing.Point(20, 330);
             this.selectMountainComboBox.Name = "selectMountainComboBox";
-            this.selectMountainComboBox.Size = new System.Drawing.Size(220, 28);
+            this.selectMountainComboBox.Size = new System.Drawing.Size(220, 32);
             this.selectMountainComboBox.TabIndex = 6;
             this.selectMountainComboBox.SelectionChangeCommitted += new System.EventHandler(this.selectMountainComboBox_SelectionChangeCommitted);
             // 
@@ -104,8 +104,9 @@
             this.selectDifficultyComboBox.FormattingEnabled = true;
             this.selectDifficultyComboBox.Location = new System.Drawing.Point(522, 330);
             this.selectDifficultyComboBox.Name = "selectDifficultyComboBox";
-            this.selectDifficultyComboBox.Size = new System.Drawing.Size(203, 28);
+            this.selectDifficultyComboBox.Size = new System.Drawing.Size(203, 32);
             this.selectDifficultyComboBox.TabIndex = 7;
+            this.selectDifficultyComboBox.SelectionChangeCommitted += new System.EventHandler(this.selectDifficultyComboBox_SelectionChangeCommitted);
             // 
             // insertMountainMenuButton
             // 
@@ -128,7 +129,7 @@
             this.selectCountryLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.selectCountryLabel.Location = new System.Drawing.Point(269, 291);
             this.selectCountryLabel.Name = "selectCountryLabel";
-            this.selectCountryLabel.Size = new System.Drawing.Size(137, 31);
+            this.selectCountryLabel.Size = new System.Drawing.Size(162, 36);
             this.selectCountryLabel.TabIndex = 10;
             this.selectCountryLabel.Text = "Select Country :";
             // 
@@ -138,7 +139,7 @@
             this.selectCountryComboBox.FormattingEnabled = true;
             this.selectCountryComboBox.Location = new System.Drawing.Point(275, 330);
             this.selectCountryComboBox.Name = "selectCountryComboBox";
-            this.selectCountryComboBox.Size = new System.Drawing.Size(217, 28);
+            this.selectCountryComboBox.Size = new System.Drawing.Size(217, 32);
             this.selectCountryComboBox.TabIndex = 11;
             this.selectCountryComboBox.SelectionChangeCommitted += new System.EventHandler(this.selectCountryComboBox_SelectionChangeCommitted);
             // 
@@ -210,7 +211,7 @@
             // 
             // MainMenuForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(748, 460);

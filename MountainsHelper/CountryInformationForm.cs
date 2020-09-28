@@ -20,6 +20,26 @@ namespace MountainsHelper
 
             country = countryModel;
 
+            CountryDataWiring();
+
+        }
+
+        public void CountryDataWiring()
+        {
+            cifCountriesListbox.DataSource = null;
+            cifCountriesListbox.DataSource = country.MountainsInCountry;
+            cifCountriesListbox.DisplayMember = "MountainName";
+
+            cifCountryNameLabel.Text = "Mountains you can visit in " + country.CountryName + " :";
+        }
+
+        private void cifLoadMountainButton_Click(object sender, EventArgs e)
+        {
+            MountainModel mm = new MountainModel();
+            mm = (MountainModel)cifCountriesListbox.SelectedItem;
+
+            MountainInformationForm frm = new MountainInformationForm(mm);
+            frm.Show();
         }
     }
 }

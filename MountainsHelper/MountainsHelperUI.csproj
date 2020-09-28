@@ -96,6 +96,9 @@
     <EmbeddedResource Include="CreateCountryForm.resx">
       <DependentUpon>CreateCountryForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="DifficultyInformationForm.resx">
+      <DependentUpon>DifficultyInformationForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="InsertMountainForm.resx">
       <DependentUpon>InsertMountainForm.cs</DependentUpon>
     </EmbeddedResource>

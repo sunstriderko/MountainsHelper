@@ -46,9 +46,10 @@
             // 
             this.informationsAboutYourTourLabel.AutoSize = true;
             this.informationsAboutYourTourLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.informationsAboutYourTourLabel.Location = new System.Drawing.Point(12, 21);
+            this.informationsAboutYourTourLabel.Location = new System.Drawing.Point(16, 26);
+            this.informationsAboutYourTourLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.informationsAboutYourTourLabel.Name = "informationsAboutYourTourLabel";
-            this.informationsAboutYourTourLabel.Size = new System.Drawing.Size(442, 37);
+            this.informationsAboutYourTourLabel.Size = new System.Drawing.Size(543, 46);
             this.informationsAboutYourTourLabel.TabIndex = 0;
             this.informationsAboutYourTourLabel.Text = "Informations About Your Tour";
             // 
@@ -56,9 +57,10 @@
             // 
             this.mifMountainNameLabel.AutoSize = true;
             this.mifMountainNameLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.mifMountainNameLabel.Location = new System.Drawing.Point(14, 89);
+            this.mifMountainNameLabel.Location = new System.Drawing.Point(19, 110);
+            this.mifMountainNameLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.mifMountainNameLabel.Name = "mifMountainNameLabel";
-            this.mifMountainNameLabel.Size = new System.Drawing.Size(337, 25);
+            this.mifMountainNameLabel.Size = new System.Drawing.Size(420, 31);
             this.mifMountainNameLabel.TabIndex = 1;
             this.mifMountainNameLabel.Text = "Mountain You Are About To Visit :";
             // 
@@ -66,18 +68,20 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label1.Location = new System.Drawing.Point(14, 133);
+            this.label1.Location = new System.Drawing.Point(19, 164);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(0, 29);
+            this.label1.Size = new System.Drawing.Size(0, 36);
             this.label1.TabIndex = 2;
             // 
             // mifMountainHeightLabel
             // 
             this.mifMountainHeightLabel.AutoSize = true;
             this.mifMountainHeightLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.mifMountainHeightLabel.Location = new System.Drawing.Point(14, 137);
+            this.mifMountainHeightLabel.Location = new System.Drawing.Point(19, 169);
+            this.mifMountainHeightLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.mifMountainHeightLabel.Name = "mifMountainHeightLabel";
-            this.mifMountainHeightLabel.Size = new System.Drawing.Size(355, 25);
+            this.mifMountainHeightLabel.Size = new System.Drawing.Size(446, 31);
             this.mifMountainHeightLabel.TabIndex = 3;
             this.mifMountainHeightLabel.Text = "Hight You Are Going To Reach [m] :";
             // 
@@ -85,9 +89,10 @@
             // 
             this.mifMountainDifficultyLabel.AutoSize = true;
             this.mifMountainDifficultyLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.mifMountainDifficultyLabel.Location = new System.Drawing.Point(14, 186);
+            this.mifMountainDifficultyLabel.Location = new System.Drawing.Point(19, 229);
+            this.mifMountainDifficultyLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.mifMountainDifficultyLabel.Name = "mifMountainDifficultyLabel";
-            this.mifMountainDifficultyLabel.Size = new System.Drawing.Size(358, 25);
+            this.mifMountainDifficultyLabel.Size = new System.Drawing.Size(450, 31);
             this.mifMountainDifficultyLabel.TabIndex = 4;
             this.mifMountainDifficultyLabel.Text = "Difficulty You Have To Prepare For :";
             // 
@@ -95,9 +100,10 @@
             // 
             this.mifMountainStartPointLabel.AutoSize = true;
             this.mifMountainStartPointLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.mifMountainStartPointLabel.Location = new System.Drawing.Point(14, 232);
+            this.mifMountainStartPointLabel.Location = new System.Drawing.Point(19, 286);
+            this.mifMountainStartPointLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.mifMountainStartPointLabel.Name = "mifMountainStartPointLabel";
-            this.mifMountainStartPointLabel.Size = new System.Drawing.Size(242, 25);
+            this.mifMountainStartPointLabel.Size = new System.Drawing.Size(303, 31);
             this.mifMountainStartPointLabel.TabIndex = 5;
             this.mifMountainStartPointLabel.Text = "You Start At This Point :";
             // 
@@ -105,58 +111,64 @@
             // 
             this.mifMountainTimeOfTourLabel.AutoSize = true;
             this.mifMountainTimeOfTourLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.mifMountainTimeOfTourLabel.Location = new System.Drawing.Point(14, 277);
+            this.mifMountainTimeOfTourLabel.Location = new System.Drawing.Point(19, 341);
+            this.mifMountainTimeOfTourLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.mifMountainTimeOfTourLabel.Name = "mifMountainTimeOfTourLabel";
-            this.mifMountainTimeOfTourLabel.Size = new System.Drawing.Size(205, 25);
+            this.mifMountainTimeOfTourLabel.Size = new System.Drawing.Size(256, 31);
             this.mifMountainTimeOfTourLabel.TabIndex = 6;
             this.mifMountainTimeOfTourLabel.Text = "It Will Take You [h] :";
             // 
             // mifMountainNameTextbox
             // 
-            this.mifMountainNameTextbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.mifMountainNameTextbox.Location = new System.Drawing.Point(357, 93);
+            this.mifMountainNameTextbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.mifMountainNameTextbox.Location = new System.Drawing.Point(476, 112);
+            this.mifMountainNameTextbox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.mifMountainNameTextbox.Name = "mifMountainNameTextbox";
-            this.mifMountainNameTextbox.Size = new System.Drawing.Size(136, 21);
+            this.mifMountainNameTextbox.Size = new System.Drawing.Size(180, 30);
             this.mifMountainNameTextbox.TabIndex = 7;
             // 
             // mifMountainHeightTextbox
             // 
-            this.mifMountainHeightTextbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.mifMountainHeightTextbox.Location = new System.Drawing.Point(375, 141);
+            this.mifMountainHeightTextbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.mifMountainHeightTextbox.Location = new System.Drawing.Point(500, 171);
+            this.mifMountainHeightTextbox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.mifMountainHeightTextbox.Name = "mifMountainHeightTextbox";
-            this.mifMountainHeightTextbox.Size = new System.Drawing.Size(118, 21);
+            this.mifMountainHeightTextbox.Size = new System.Drawing.Size(156, 30);
             this.mifMountainHeightTextbox.TabIndex = 8;
             // 
             // mifMountainDifficultyTextbox
             // 
-            this.mifMountainDifficultyTextbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.mifMountainDifficultyTextbox.Location = new System.Drawing.Point(378, 190);
+            this.mifMountainDifficultyTextbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.mifMountainDifficultyTextbox.Location = new System.Drawing.Point(504, 231);
+            this.mifMountainDifficultyTextbox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.mifMountainDifficultyTextbox.Name = "mifMountainDifficultyTextbox";
-            this.mifMountainDifficultyTextbox.Size = new System.Drawing.Size(115, 21);
+            this.mifMountainDifficultyTextbox.Size = new System.Drawing.Size(152, 30);
             this.mifMountainDifficultyTextbox.TabIndex = 9;
             // 
             // mifMountainStartPointTextbox
             // 
-            this.mifMountainStartPointTextbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.mifMountainStartPointTextbox.Location = new System.Drawing.Point(285, 236);
+            this.mifMountainStartPointTextbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.mifMountainStartPointTextbox.Location = new System.Drawing.Point(380, 288);
+            this.mifMountainStartPointTextbox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.mifMountainStartPointTextbox.Name = "mifMountainStartPointTextbox";
-            this.mifMountainStartPointTextbox.Size = new System.Drawing.Size(208, 21);
+            this.mifMountainStartPointTextbox.Size = new System.Drawing.Size(276, 30);
             this.mifMountainStartPointTextbox.TabIndex = 10;
             // 
             // mifMountainTimeOfTourTextbox
             // 
-            this.mifMountainTimeOfTourTextbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.mifMountainTimeOfTourTextbox.Location = new System.Drawing.Point(285, 281);
+            this.mifMountainTimeOfTourTextbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.mifMountainTimeOfTourTextbox.Location = new System.Drawing.Point(380, 343);
+            this.mifMountainTimeOfTourTextbox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.mifMountainTimeOfTourTextbox.Name = "mifMountainTimeOfTourTextbox";
-            this.mifMountainTimeOfTourTextbox.Size = new System.Drawing.Size(208, 21);
+            this.mifMountainTimeOfTourTextbox.Size = new System.Drawing.Size(276, 30);
             this.mifMountainTimeOfTourTextbox.TabIndex = 11;
             // 
             // MountainInformationForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(513, 323);
+            this.ClientSize = new System.Drawing.Size(684, 398);
             this.Controls.Add(this.mifMountainTimeOfTourTextbox);
             this.Controls.Add(this.mifMountainStartPointTextbox);
             this.Controls.Add(this.mifMountainDifficultyTextbox);
@@ -169,6 +181,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.mifMountainNameLabel);
             this.Controls.Add(this.informationsAboutYourTourLabel);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "MountainInformationForm";
             this.Text = "Mountain Informations";
             this.ResumeLayout(false);
