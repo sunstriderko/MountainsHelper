@@ -214,5 +214,11 @@ namespace MountainsHelper
                 frm.Show();
             }
         }
+
+        private void mmfDifficultyLegendButton_Click(object sender, EventArgs e)
+        {
+            DifficultyLegendForm frm = new DifficultyLegendForm(availibleDifficulties);
+            frm.Show();
+        }
     }
 }

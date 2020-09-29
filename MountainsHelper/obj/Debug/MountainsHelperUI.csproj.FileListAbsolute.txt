@@ -19,3 +19,4 @@ C:\Users\adamc\Desktop\Kodenie\MountainsHelper\MountainsHelper\bin\Debug\Dapper.
 C:\Users\adamc\Desktop\Kodenie\MountainsHelper\MountainsHelper\obj\Debug\MountainsHelper.MountainInformationForm.resources
 C:\Users\adamc\Desktop\Kodenie\MountainsHelper\MountainsHelper\obj\Debug\MountainsHelper.CountryInformationForm.resources
 C:\Users\adamc\Desktop\Kodenie\MountainsHelper\MountainsHelper\obj\Debug\MountainsHelper.DifficultyInformationForm.resources
+C:\Users\adamc\Desktop\Kodenie\MountainsHelper\MountainsHelper\obj\Debug\MountainsHelper.DifficultyLegendForm.resources

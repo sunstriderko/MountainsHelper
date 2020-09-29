@@ -44,6 +44,7 @@
             this.removeMountainMenuButton = new System.Windows.Forms.Button();
             this.mmfLoadMountainButton = new System.Windows.Forms.Button();
             this.mmfLoadCountryButton = new System.Windows.Forms.Button();
+            this.mmfDifficultyLegendButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.mainMenuPicturebox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -237,12 +238,27 @@
             this.mmfLoadCountryButton.UseVisualStyleBackColor = false;
             this.mmfLoadCountryButton.Click += new System.EventHandler(this.mmfLoadCountryButton_Click);
             // 
+            // mmfDifficultyLegendButton
+            // 
+            this.mmfDifficultyLegendButton.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.mmfDifficultyLegendButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.mmfDifficultyLegendButton.Font = new System.Drawing.Font("Agency FB", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mmfDifficultyLegendButton.ForeColor = System.Drawing.Color.Coral;
+            this.mmfDifficultyLegendButton.Location = new System.Drawing.Point(522, 368);
+            this.mmfDifficultyLegendButton.Name = "mmfDifficultyLegendButton";
+            this.mmfDifficultyLegendButton.Size = new System.Drawing.Size(203, 57);
+            this.mmfDifficultyLegendButton.TabIndex = 20;
+            this.mmfDifficultyLegendButton.Text = "Show Difficulty Legend";
+            this.mmfDifficultyLegendButton.UseVisualStyleBackColor = false;
+            this.mmfDifficultyLegendButton.Click += new System.EventHandler(this.mmfDifficultyLegendButton_Click);
+            // 
             // MainMenuForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(748, 502);
+            this.Controls.Add(this.mmfDifficultyLegendButton);
             this.Controls.Add(this.mmfLoadCountryButton);
             this.Controls.Add(this.mmfLoadMountainButton);
             this.Controls.Add(this.removeMountainMenuButton);
@@ -288,5 +304,6 @@
         private System.Windows.Forms.Button removeMountainMenuButton;
         private System.Windows.Forms.Button mmfLoadMountainButton;
         private System.Windows.Forms.Button mmfLoadCountryButton;
+        private System.Windows.Forms.Button mmfDifficultyLegendButton;
     }
 }

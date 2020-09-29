@@ -64,6 +64,12 @@
     <Compile Include="DifficultyInformationForm.Designer.cs">
       <DependentUpon>DifficultyInformationForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="DifficultyLegendForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DifficultyLegendForm.Designer.cs">
+      <DependentUpon>DifficultyLegendForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="InsertMountainForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -98,6 +104,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="DifficultyInformationForm.resx">
       <DependentUpon>DifficultyInformationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DifficultyLegendForm.resx">
+      <DependentUpon>DifficultyLegendForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="InsertMountainForm.resx">
       <DependentUpon>InsertMountainForm.cs</DependentUpon>
