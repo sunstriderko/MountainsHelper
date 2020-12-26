@@ -9,5 +9,7 @@ The project is finished, but I still work on some bug fixes.
 
 This application will not work properly on any PC due to SQL database being on my local PC!
 
+Little showcase:
+
 ![Alt Text](https://media.giphy.com/media/SzAVmhL4Rb4twNHtfu/giphy.gif)
 
