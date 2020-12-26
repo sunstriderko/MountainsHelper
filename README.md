@@ -11,5 +11,5 @@ This application will not work properly on any PC due to SQL database working on
 
 Little showcase:
 
-![Alt Text](https://media.giphy.com/media/SzAVmhL4Rb4twNHtfu/giphy.gif)
+![Alt Text](https://media.giphy.com/media/P2gxFLgELOBOIjEWV1/giphy.gif)
 
