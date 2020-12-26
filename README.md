@@ -6,4 +6,5 @@ MountainsHelper is my own project. As I started to do hiking more and more I got
 attributes. Thats the main feature of this project to have a database of tours that are sorted based on country and difficulty. Database have to be filled by the user. Statistics form is meant to be a tracker of your own achievements.
 
 The project is finished, but I still work on some bug fixes.
+This application will not work properly on any PC due to SQL database being on my local PC!
 
