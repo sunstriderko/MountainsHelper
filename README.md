@@ -7,7 +7,7 @@ attributes. Thats the main feature of this project to have a database of tours t
 
 The project is finished, but I still work on some bug fixes.
 
-This application will not work properly on any PC due to SQL database being on my local PC!
+This application will not work properly on any PC due to SQL database working only on local PCs!
 
 Little showcase:
 
